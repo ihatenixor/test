@@ -1,91 +1,105 @@
-/* roboto-regular - cyrillic_latin */
-@font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    src: url('./fonts/roboto-v30-cyrillic_latin-regular.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-/* roboto-500 - cyrillic_latin */
-@font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    src: url('./fonts/roboto-v30-cyrillic_latin-500.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-/* roboto-700 - cyrillic_latin */
-@font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    src: url('/fonts/roboto-v30-cyrillic_latin-700.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-body {
-    font-family: Roboto;
-
-
-}
-
-html {
-    box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
-
-html,
-body {
-    font-size: 62.5%;
+ul {
+    list-style-type: none;
 }
 
 :root {
-    --main-color: #1A4D70;
-    --two-main-color: #FFFFFF;
+    
+  }  
+
+html, body{
+    font-size: 62.5%;
 }
 
-.wrapper {
-    max-width: 342px;
+body{
+    font-size: 1.2rem;
+    background-color: white;
+}
+
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/roboto-v30-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* roboto-500 - cyrillic_latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('./fonts/roboto-v30-cyrillic_latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+  /* roboto-700 - cyrillic_latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/fonts/roboto-v30-cyrillic_latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body{
+    font-family: Roboto;
+   
+    
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+html,body{
+    font-size: 62.5%;
+}
+
+:root{
+    --main-color:#1A4D70;
+    --two-main-color:#FFFFFF;
+}
+
+.wrapper{
+    max-width: 390px;
     margin: 0 auto;
 }
-
-.header {
-
-    position: absolute;
+.header{
+    
     margin: 0 auto;
     width: 100%;
     background: url(/img/headerrr.svg) no-repeat center;
     background-size: cover;
-    height: 150px;
-
-
+    height: 150px;  
+   
+    
 }
 
-main {
+@media (max-width: 390px) { 
+    .header{
+        margin: 0 auto;
+        width: 100%;
+        background: url(/img/headerrr.svg) no-repeat center;
+        background-position: -1400px top;
+        height: 150px;  
+       
+    } 
+
+}
+main{
     width: 100%;
 }
 
-.header__wrapper {
+.header__wrapper{
     margin: 0 auto;
     width: 342px;
     z-index: 99;
     height: 150px;
 }
 
-.header-wrapper__block {
+.header-wrapper__block{
     display: block;
     margin: 0 auto;
     display: flex;
@@ -97,7 +111,7 @@ main {
 
 }
 
-.header-wrapper__button {
+.header-wrapper__button{
     background-image: url(/img/Menu.svg);
     border: none;
     width: 32px;
@@ -105,215 +119,66 @@ main {
     background-color: white;
 }
 
-.form {
-    margin-top: 100px;
-    margin-bottom: 20px;
-}
-
-.form__wrapper {
-    width: 100%;
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-.fieldset {
-    border: none;
-}
-
-.forma {
-    width: 500px;
-    padding: 20px;
-    border-radius: 8px;
-    background-color: white;
-    border: 5px solid black;
-    border-radius: 10px;
-}
-
-.form-title {
-    font-size: 25px;
-    font-weight: bolder;
-    line-height: 125%;
-    text-align: center;
-    color: var(--first-color);
-}
-
-.form-label {
-    display: block;
-    margin: 10px 0 5px;
-    color: black;
-    font-size: 20px;
-    font-weight: normal;
-    line-height: 125%;
-}
-
-.form-input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 2px solid black;
-    border-radius: 10px;
-
-}
-
-.contacts_txt-title {
-    color: var(--two-main-color);
-    text-align: center;
-    font-family: Roboto;
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 32px;
-    padding-top: 40px;
-}
-
-.orange {
-    width: 342px;
-    height: 317px;
-    background-color: #F9572B;
-}
-
-.orange-wrapper {
-    max-width: 278px;
-    margin: 0 auto;
-}
-
-.contacts_pic {
-    margin-top: 32px;
-    margin-bottom: 12px;
-}
-
-
-.contacts_txt {
-    color: var(--two-main-color);
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 900;
-    margin-bottom: 4px;
-}
-
-.contacts_link {
-    display: block;
-    text-decoration: none;
-    font-family: Roboto;
-    font-size: 16px;
+.label{
+    color: var(--main-color);
+    font-size: 1.8rem;
     font-weight: 500;
-    color: var(--two-main-color);
+    margin-bottom: 42px;
+    max-width: 342px;
 }
 
-.contacts_iteam_txt {
-    font-family: Roboto;
-    font-size: 16px;
+.list__string__txt{
+    color: var(--main-color);
+    font-size: 1.8rem;
     font-weight: 500;
-    color: var(--two-main-color);
-    max-width: 225px;
-}
-
-.blue-p {
-    background-color: var(--main-color);
-
-}
-
-.gray {
-    width: 342px;
-    height: 112px;
-    background-color: #777;
-
-}
-
-.gray-wrapper {
-    max-width: 278px;
-    margin: 0 auto;
-}
-
-.processing-information_txt {
-    padding-top: 32px;
-    color: var(--White, #FFF);
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.progcessin_txt {
-    display: block;
-    color: var(--White, #FFF);
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 500;
-    margin-top: 70px;
+    margin-bottom: 42px;
+    max-width: 342px;
 }
 
 
-.filling-application {
-    margin-top: 121px;
-    display: flex;
-    flex-wrap: wrap;
-    font-family: Roboto;
-}
-
-.filling-application_txt {
-    display: block;
-    text-decoration: none;
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 400;
-    margin-top: 8px;
-    margin-bottom: 24px;
-
-}
-
-.form_input-fill {
-    margin-bottom: 24px;
+.main-form__input{
+    border-radius: 4px;
+    background: var(--White, #FFF);
+   
     width: 342px;
     height: 43px;
-    padding: 12px 40px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 5px;
-    border: none;
-}
-
-
-
-span {
-    font-family: Roboto;
-}
-
-.form_tekstarea {
-    display: flex;
-    width: 342px;
-    height: 180px;
-    padding: 12px 40px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border: none;
 
 }
-
-.koment1 {
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 400;
-}
-
-
-.filling-application_buttom {
-    display: inline-flex;
-    padding: 12px 40px;
-    justify-content: center;
-    align-items: center;
-    background-color: #F9572B;
+.submit__bitton{
+    box-shadow: 0px 4px 4px 0px #00000040;
     color: var(--two-main-color);
-    border: none;
-    border-radius: 4px;
-    margin-top: 32px;
+    font-size: 1em;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    padding: 12px 40px 12px 40px ;
+    background: #F9572B;
+    border-radius: 5px;
+    margin-left: 10px;
+    bottom: 7px;
+    display: block;
+    border: 0  
 }
 
-.footer {
+.reset__button{
+    box-shadow: 0px 4px 4px 0px #00000040;
+    color: var(--two-main-color);
+    font-size: 1em;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    padding: 12px 40px 12px 40px ;
+    background: var(--main-color);
+    border-radius: 5px;
+    margin-left: 250px;
+    bottom: 39px;
+   
+    border: 0  
+    
+}
+.footer{
+    margin: 0 auto;
+    max-width: 342px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -321,19 +186,203 @@ span {
     margin-top: 20px;
     padding-bottom: 40px;
 }
+.form__name{
+    color: #1A4D70;
+    font-size: 20px;
+    
+}
 
-.footer-line {
+.footer-line{
     width: 342px;
     height: 1px;
     background-color: #777;
     margin-top: 52px;
 }
 
-.footer_txt {
+.footer_txt{
     color: #FFFFFF;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+footer{
+    background-color: #1A4D70;
+}
+
+legend{
+    font-weight: 500px;
+
+    color: var(--main-color);
+    font-size: 18px;
+}
+
+dl{
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+
+.footer_pic{
+    transform: rotate(-29deg) skew(10deg, 10deg) scale(2);
+
+}
+dt::first-letter{
+    font-size: 2rem;
+    color: var(--second-main);
+}
+dd::before{
+    content: '\01F6C8';
+    color: var(--second-main);
+    margin-right: 4px;
+}
+dt::first-letter{
+    font-size: 14px;
+    color: var(--second-main);
+}
+dd::before{
+    content: '\01F6C8';
+    color: var(--second-main);
+    margin-right: 4px;
+    font-size: 14px;
+}
+
+.main-form--2__fieldset input{
+    display: none;
+}
+
+.main-form--2__fieldset label{
+    position: relative;
+}
+
+.main-form--2__fieldset label::after{
+    content: '';
+    position: absolute;
+    bottom: 40%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--main);
+    transition: width 0.5s ease; 
+}
+
+.main-form--2__fieldset input:checked + label::after{
+    transition-duration: 2s;
+    transition: cubic-bezier();
+    width: 100%;
+}
+
+.main-form--2 li:nth-child(even){
+    border-left: 2px solid var(--main);
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+
+
+
+:root {
+    --second-main: #F49C89;
+    --main-text: #ECEEF8;
+    --main: #34344E;
+    --sub-text: #FFF;
+    --line-color: rgba(52, 52, 78, 0.50);
+  }
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+main{
+    flex: 1;
+}
+
+label{
+    cursor: pointer;
+}
+
+
+label[for='passw']:focus-within,
+label[for='mail']:focus-within,
+label[for='phone']:focus-within,
+label[for='name']:focus-within,
+label[for='birthday']:focus-within {
+    color: var(--second-main);
+}
+
+.fieldset-personal__label--required{
+    border-left: 2px solid wheat;
+    padding-left: 5px;
+}
+
+
+
+
+
+.logo{
+    transform: rotate(-30deg) skew(10deg, 10deg) scale(2);
+}
+
+
+dt::first-letter{
+    font-size: 24px;
+    color: wheat;
+}
+dd::before{
+    content: '\01F6C8';
+    color: wheat;
+    margin-right: 5px;
+}
+
+.main-form--2__fieldset input{
+    display: none;
+}
+
+.main-form--2__fieldset label{
+    position: relative;
+}
+
+.main-form--2__fieldset label::after{
+    content: '';
+    position: absolute;
+    bottom: 40%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: yellow;
+    transition: width 0.3s ease; 
+}
+
+.main-form--2__fieldset input:checked + label::after{
+    transition-duration: 1s;
+    transition: cubic-bezier();
+    width: 100%;
+}
+
+.main-form--2 li:nth-child(even){
+    border-left: 2px solid blue;
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+.main-form--2 li:nth-child(odd){
+    border-left: 2px solid  firebrick;
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+li{
+    font-size: 16px;
+    font-family: Roboto;
+}
+
+.main-form--2 li:nth-child(odd){
+    border-left: 2px solid var(--second-main);
+    padding-left: 5px;
+    margin-top: 10px;
 }
