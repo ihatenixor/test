@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/main.css">
+  <link rel="stylesheet" href="/reset.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="">
+   <section class="header">
+   <div class="header__block">
+        <div class="header__wrapper">
+
+          <img src="/img/Logo.png" alt="логотип компании по Аренде насосов" class="header-wrapper__img">
+          <a href="#main-h" class="skip-link">Перейти к контенту</a>
+          <button class="header-wrapper__button"></button>
+        </div>
+        <nav class="header_nav">
+          
+          <a href="" class="header-nav_item">О компании</a>
+          <a href="" class="header-nav_item">Наши преимущества</a>
+          <a href="" class="header-nav_item">Заказчики</a>
+          <a href="" class="header-nav_item">Объекты</a>
+          <a href="" class="header-nav_item">Контакты</a>
+          <a href="" class="header-nav_item_nomber">8 800 600-15-05</a>
+        </nav>
+   </div class="header-wrapper__block">
+   </section>
+  </header>
+  <main id="main-h" class="main">
+    <section class="section-1">
+      <div class="wrapper">
+        <h1 class="main__title">Аренда специализированных насосных станций</h1>
+        <p class="main__txt">для водопонижения и водоотведения</p>
+       <div class="img_c  v"> <img src="/img/Bump 1 (3).png" alt="один из представленных насосов" class="main__img"></div>
+        <button class="main__button">Заказать звонок</button>
+      </div>
+      <div class="grafic">
+        <img class="gg" src="/img/main график.svg" alt="">
+      </div>
+    </section>
+    <section class="section-2">
+      <div class="wrapper">
+        <ul class="main__list">
+          <li class="main-list_item">
+            <img src="/img/pochta.png" alt="#" class="main-item__img">
+          <div class="main_block">
+              <h3 class="main-item__title">Cвязь с нами</h3>
+              <p class="mai-item__txt">8 800 600-15-05</p>
+              <p class="mai-item__txt">office@sahara-group.ru</p>
+          </div>
+          </li>
+
+          <li class="main-list_item">
+            <img width="55" height="56" src="/img/Ellipse 174 (1).png" alt="#" class="main-item__img">
+            <div class="main_block">
+              <h3 class="main-item__title">Наша локация</h3>
+              <p class="mai-item__txt">Ленинградская область, 
+                Новоприозерское ш.11 км. Трасса А-121</p>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+    <section class="company">
+      <div class="wrapper">
+        <h2 class="company__title">О компании</h2>
+        <div class="line"></div>
+        <p class="company-first__txt">Уже более 8 лет специалисты компании Сахара Груп решают задачи любой сложности как в сфере водоотведения при проведении бестраншейного ремонта и строительства наружных сетей водоснабжения, канализации и трубопроводов, так и в сфере водопонижения грунтовых вод и осушения котлованов при строительстве зданий и иных сооружений.</p>
+        <p class="company-two__txt">Мы используем в работе высококачественное оборудование признанного мирового лидера в производстве насосов – голландскую компанию BBA pumps. Наши насосные станции отличаются от конкурентов стабильной работой в любых погодных условиях, максимальной эффективностью при минимальном расходе топлива, а также низким уровнем шума (менее 48 дБ), что позволяет использовать их в городских условиях</p>
+       <div class="flexx">
+          <ul class="company__list">
+            <li class="company-list__item">
+              <img src="/img/Info-1.png" alt="#" class="companny-item__img">
+              <p class="compeny-item__txt">Успешно реализованных
+                проектов</p>
+            </li>
+            <li class="company-list__item">
+              <img src="/img/Info-2.png" alt="#" class="companny-item__img">
+              <p class="compeny-item__txt">Насосных установок различной мощности</p>
+            </li>
+            <li class="company-list__item">
+              <img src="/img/Info-3.png" alt="#" class="companny-item__img">
+              <p class="compeny-item__txt">Лет на рынке водопонижения</p>
+            </li>
+          </ul>
+          <div class="company-img__block">
+            <img src="/img/bba_pumps_electrically_driven_portable_pumps 1.svg" alt="насос компании" class="company__img">
+          </div>
+       </div>
+      </div>
+    </section>
+    
+    <section class="equipment">
+      <div class="wrapper">
+        <h2 class="equipment__title">Наше оборудование</h2>
+        <div class="line"></div>
+        <ul class="equipment__list">
+          <li>
+            <button class="equipment-info_button">BA100K D193</button>
+            <button class="equipment-info_button">BA150E D285</button>
+            <button class="equipment-info_button">BA180E D328</button>
+            <button class="equipment-info_button">BA180E D328</button>
+            <button class="equipment-info_button">BA180E D328</button>
+          </li>
+        </ul>
+        </ul  >
+     <div class="ad">
+            <div class="block__ad">
+              <h3 class="name-equipment">BA100K D193</h3>
+              <p class="equipment-info_txt-first">Насосный агрегат ВА100К D193 с максимальной производительностью 190 м3/ч и способностью перекачивать твердые включения диаметром до 82 мм является самой популярной моделью серии BA.</p>
+              <p class="equipment-info_txt">Данный насос имеет компактный корпус и низкий уровень шума, благодаря чему его можно использовать даже в густонаселенных районах крупных городов</p>
+            </div>
+           <div class=""> <img src="/img/насос2.png" alt="картинка насоса который описывается" class="equipment__img"></div>
+     </div>
+        <ul>
+      </div>
+    </section>
+
+    <section class="advantages">
+      <div class="wrapper">
+
+        <h2 class="advantages__title">Наши преимущества</h2>
+        <div class="line"></div>
+
+        <ul class="advantages__list">
+
+          <li class="advantages__item">
+            <img src="/img/Icon-1.png" alt="" class="advantages-item__img">
+            <h3 class="advantages-item__title">Работаем 
+              по всей России</h3>
+            <div class="advantages-item__line"></div>
+            <p class="advantages-item__txt">Мы готовы произвести работы в любой точке России в максимально сжатые сроки. Мы ценим время заказчика и организуем доставку на объект самостоятельно вне зависимости от количества оборудования.</p>
+          </li>
+
+          <li class="advantages__item">
+            <img src="/img/Icon-2.png" alt="" class="advantages-item__img">
+            <h3 class="advantages-item__title">Лучшее в классе оборудование</h3>
+            <div class="advantages-item__line"></div>
+            <p class="advantages-item__txt">Мы используем только насосы BBA pumps при проведении работ. Все наши установки выпущены не позже 2017 года, в идеальном техническом состоянии.</p>
+          </li>
+
+          <li class="advantages__item">
+            <img src="/img/Icon-3.png" alt="" class="advantages-item__img">
+            <h3 class="advantages-item__title">Бесплатный выезд и консультация</h3>
+            <div class="advantages-item__line"></div>
+            <p class="advantages-item__txt">Бесплатный выезд и консультации в любой точке России, постоянная поддержка и полное сопровождение работ на каждом этапе оказываемых услуг.</p>
+          </li>
+
+        </ul>
+
+      </div> 
+    </section>
+
+    <section class="blue">
+
+    </section>
+
+    <section class="gray_back">
+
+    </section>
+
+    <section class="customers">
+      <div class="wrapper">
+        <h2 class="customers__title">Заказчики</h2>
+        <div class="line"></div>
+
+        <ul class="customers__list">
+          <li class="customers__item">
+            <img src="/img/Aarsleff.svg" alt=" логотип компании заказчика" class="customers-item__img">
+          </li>
+          <li class="customers__item">
+            <img src="/img/Megameid.svg" alt="логотип компании заказчика" class="customers-item__img-mg">
+          </li>
+          <li class="customers__item">
+            <img src="/img/Tehnomet.svg" alt="логотип компании заказчика" class="customers-item__img">
+          </li>
+          <li class="customers__item">
+            <img src="/img/CTIC.svg" alt="логотип компании заказчика" class="customers-item__img">
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="consultation">
+      <div class="wrapper">
+        <h2 class="consultation__title">Закажите консультацию, расчет стоимости работ или выезд специалиста на объект</h2>
+        <p class="consultation__txt"></p>
+        <div class="line"></div>
+        <form action="" class="consultation__form">
+          <label for="name">
+            <span class="n">Ваше имя</span>
+            <input class="form_input" id="name" type="text">
+          </label>
+
+          <label for="name_company">
+            <span class="n">Название компании</span>
+            <input class="form_input" id="name_company" type="text">
+          </label>
+
+          <label for="telephone">
+            <span class="n">Телефон</span>
+            <input class="form_input" id="telephone" type="text">
+          </label>
+
+          <a href="" class="registr_iteam">Я даю свое согласие на обработку моей персональной информации в соответствии с политикой конфиденциальности</a>
+          <button type="submit" class="registr_button">Отправить запрос</button>
+        </form>
+      </div>
+
+      <div class="consultation__grafic">
+      </div>
+    </section>
+
+    <section class="objects">
+      <div class="wrapper">
+        <h2 class="objects__title">Наши 
+          объекты</h2>
+        <div class="line"></div>
+        <div class="img_c"><img src="/img/Map.svg" alt="карта где находятся объекты компании" class="objects__img"></div>
+
+     <div class="objects__block">
+          <ul  class="objects_list-first">
+            <li class="objects_item">Екатеринбург</li>
+            <li class="objects_item">Москва </li>
+            <li class="objects_item">Казань</li>
+          </ul>
+  
+          <ul class="objects_list_two" >
+            <li class="objects_item">Санкт-Петербург</li>
+            <li class="objects_item">Краснодар</li>
+            <li class="objects_item">Тюмень</li>
+          </ul>
+     </div>
+      </div>
+    </section>
+
+   
+
+  </main>
+
+  <footer>
+    <section class="Contacts">
+      <div class="image-part">
+        <div class="wrapper">
+          <h2 class="contacts_txt-title">Контакты</h2>
+          <div class="line"></div>
+         <div class="whitee">
+            <div class="orange">
+              <div class="orange-wrapper">
+  
+      
+                  <ul class="contacts_list">
+                    <li class="contacts_iteam">
+                      <img src="/img/mdi_email-outline.svg" alt="картинка почты" class="contacts_pic">
+                      <h3 class="contacts_txt">Связь с нами</h3>
+                      <a href="" class="contacts_link">8 800 600-15-05</a>
+                      <a href="" class="contacts_link">office@sahara-group.ru</a>
+                    </li>
+                    <li class="contacts_iteam">
+                      <img src="/img/simple-line-icons_location-pin.svg" alt="картинка локации" class="contacts_pic">
+                      <h3 class="contacts_txt">Наша локация</h3>
+                      <p class="contacts_iteam_txt">Ленинградская область, Новоприозерское ш.11 км. Трасса А-121</p>
+                    </li>
+                  </ul>
+  
+              </div>
+            </div>
+         </div>
+        </div>
+      </div>
+
+      <div class="blue-p">
+        <div class="wrapper">
+          <div class="gray">
+            <div class="gray-wrapper">
+              <ul class="processing_information">
+                <li class="processing-information_txt">Наши менеджеры обработают вашу заявку и сразу же свяжутся с вами в рабочее время 9:00 — 18:00 МСК.</li>
+              </ul>
+            </div>
+            <p class="progcessin_txt">Свяжитесь с нами удобным вам способом или оставьте заявку и наши специалисты позвонят вам</p>
+          </div>
+          <form action="" class="filling-application">
+            <label for="name">
+              <span class="title-filling-application">Ваше имя</span>
+              <input class="form_input-fill na" id="name" type="text">
+            </label>
+  
+            <label for="name_company">
+              <span class="title-filling-application">Название компании</span>
+              <input class="form_input-fill" id="name_company" type="text">
+            </label>
+  
+            <label for="telephone">
+              <span class="title-filling-application">Телефон</span>
+              <input class="form_input-fil tel" id="telephone" type="text">
+            </label>
+  
+            <a href="" class="filling-application_txt">Я даю свое согласие на обработку моей персональной информации в соответствии с политикой конфиденциальности</a>
+  
+            <label for="koment"><span class="koment1">Коментарий</span>
+               <textarea class="form_tekstarea" id="koment" type="text"></textarea>
+            </label>
+  
+            <button type="submit" class="filling-application_buttom">Отправить</button>
+          </form>
+          <div class="footer-line"></div>
+          <div class="footer">
+            <p class="footer_txt">2015 — 2023 г.</p>
+            <a href="/grid.html" class="">лаба7</a>
+            <a href="/form.html">Форма</a>
+            <img class="footer_pic" src="/img/footer_logo.svg" alt="лого компании">
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </footer>
+</body>
+</html>
